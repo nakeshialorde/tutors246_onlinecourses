@@ -54,15 +54,33 @@
       </div>
 
     <div class="center"><center>
+     
     <h2><b>Steps:</b></h2>
-    <ul class="list-group">
-    <li class="list-group-item"><b>Go to the the registration page.</b></li>
-    <li class="list-group-item"><b>Select the course of your choice.</b></li>
-    <li class="list-group-item"><b>Make Payment.</b><li>
-    <li class="list-group-item"><b>Register and Login!</b><li>
-    <li class="list-group-item"><b>Start your online course.</b><li>
-    </ul>
-
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+<b>Go to the the registration page.</b>
+            </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3"><b>Select the course of your choice.</b>
+            
+            </div>
+ <div class="container">
+        <div class="row">
+          <div class="col-md-3"><b>Make Payment.</b>
+            
+            </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-3"><b>Register and Login!</b>
+            </div>
+     <div class="container">
+        <div class="row">
+          <div class="col-md-3"><b>Start your online course.</b>
+          </div>
+       </div>
+            </div>
            Authentication Links 
               @if (Auth::guest())
               <a href="{{ route('login') }}" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-log-in"></span>  &nbsp;Login</a>
